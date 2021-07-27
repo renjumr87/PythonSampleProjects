@@ -108,9 +108,7 @@ body {
 .sur-name{
     margin-left: 10px;
 }
-.sign-up-name :focus {
-    border-color: rgb(24 119 242);
-}
+
 .sign-up-full {
     width: 90%;
     margin-top: 10px;
@@ -122,4 +120,15 @@ body {
     font-size: 14px;
     font-weight: bold;
     color: darkgrey;
+}
+
+.signup{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: floralwhite;
+    background: forestgreen;
+    border-radius: 5px;
+
 }
