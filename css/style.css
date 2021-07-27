@@ -8,7 +8,7 @@ body {
     height: 85px;
 }
 .container {
-    margin:0px 170px
+    margin:0px 50px
 }
 .header {
     
@@ -43,7 +43,7 @@ body {
 }
 
 .login-controls {
-    margin-left: 115px;
+    margin-left: 150px;
 }
 
 .forgotten {
@@ -74,10 +74,52 @@ body {
 .left-section{
     width: 50%;
     text-align: justify;
+    float: left;
 }
 
+.right-section{
+    width: 50%;
+    float: left;
+}
+
+.right-content {
+    margin-left: 30px;
+}
 .para {
     font-weight: bold;
     font-size: 21px;
-    margin-left: 170px;
+}
+
+.right-section-heading {
+
+}
+
+.sign-up {
+    width: 450px;
+    font-size: 14px;
+}
+.sign-up-name {
+    width: 45%;
+    margin:0px;
+    padding: 05px;
+    box-sizing: border-box;
+}
+
+.sur-name{
+    margin-left: 10px;
+}
+.sign-up-name :focus {
+    border-color: rgb(24 119 242);
+}
+.sign-up-full {
+    width: 90%;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.birthday {
+    font-size: 14px;
+    font-weight: bold;
+    color: darkgrey;
 }
